@@ -1,0 +1,30 @@
+.screenmain {
+    position: absolute;
+    border: black 0px solid;
+    left: 5px;
+    right: 5px;
+    top: 75px;
+    bottom: 0;
+    z-index: 1;
+    background-color: rgb(175, 175, 175);
+    
+    text-align: center; /* Bu, inline ve inline-block öğeleri yatayda ortalar */
+}
+.satisekle {
+  position: absolute;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+  border-radius: 7px;
+  bottom: 25px;
+  border: 2.5px #4e4e4e solid;
+  color: rgb(255, 255, 255);
+  background-color: rgb(122, 122, 122);
+  width: 95%;
+  cursor: pointer;
+
+  /* Yatayda ortalamak için */
+  left: 50%;
+  transform: translateX(-50%);
+}

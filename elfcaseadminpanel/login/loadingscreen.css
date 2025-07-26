@@ -1,0 +1,36 @@
+/* Senin verdiğin style */
+.loadingscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    background-color: rgb(21, 154, 207);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loadingscreenlogo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  height: 250px;
+
+  /* Boşta nefes alır efekti */
+  animation: breathe 3s ease-in-out infinite;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+@keyframes breathe {
+  0%, 100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(0.95);
+    opacity: 0.9;
+  }
+}

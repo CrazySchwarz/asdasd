@@ -1,0 +1,84 @@
+/* logintext ve logintexttwo fontları Roboto yapıldı */
+.Logintext, .logintexttwo {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    z-index: 1;
+}
+
+.Logintext {
+    top: 305px;
+    color: rgb(162, 0, 255);
+}
+
+.logintexttwo {
+    top: 375px;
+    color: rgba(0, 0, 0, 0.61);
+}
+
+/* Formun tamamı Roboto fontu kullanıyor */
+.loginform {
+    position: fixed;
+    top: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    font-family: 'Roboto', sans-serif;
+    border: 2px rgba(0, 0, 0, 0.137) solid;
+    border-radius: 10px;
+    padding: 100px;
+    z-index: 1;
+}
+
+.loginform label {
+    font-size: 13px;
+    color: #222;
+    font-weight: 600;
+}
+
+.loginform input {
+    padding: 7px 10px;
+    font-size: 14px;
+    border: 2px solid #aaa;
+    border-radius: 6px;
+    transition: border-color 0.3s;
+    font-family: 'Roboto', sans-serif;
+}
+
+.loginform input:focus {
+    outline: none;
+    border: 2px #007bff5e solid;
+}
+
+.loginform button {
+    padding: 9px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Roboto', sans-serif;
+}
+
+.loginform button:hover {
+    background-color: #0056b3;
+}
+
+.logo {
+    position: fixed;
+    height: 75px;
+    top: -10px;
+    left: 200px;
+    font-family: 'Roboto', sans-serif;
+    z-index: 1;
+}
+
